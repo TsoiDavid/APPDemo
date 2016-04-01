@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843AE2531CABA97500AD03C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE2521CABA97500AD03C2 /* AppDelegate.swift */; };
+		843AE2581CABA97500AD03C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843AE2561CABA97500AD03C2 /* Main.storyboard */; };
+		843AE25A1CABA97500AD03C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843AE2591CABA97500AD03C2 /* Assets.xcassets */; };
+		843AE25D1CABA97500AD03C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843AE25B1CABA97500AD03C2 /* LaunchScreen.storyboard */; };
+		843AE2841CABAF1A00AD03C2 /* 798 in Resources */ = {isa = PBXBuildFile; fileRef = 843AE27A1CABAF1A00AD03C2 /* 798 */; };
+		843AE2851CABAF1A00AD03C2 /* Classify in Resources */ = {isa = PBXBuildFile; fileRef = 843AE27B1CABAF1A00AD03C2 /* Classify */; };
+		843AE2861CABAF1A00AD03C2 /* Details in Resources */ = {isa = PBXBuildFile; fileRef = 843AE27C1CABAF1A00AD03C2 /* Details */; };
+		843AE2871CABAF1A00AD03C2 /* events in Resources */ = {isa = PBXBuildFile; fileRef = 843AE27D1CABAF1A00AD03C2 /* events */; };
+		843AE2881CABAF1A00AD03C2 /* Experience in Resources */ = {isa = PBXBuildFile; fileRef = 843AE27E1CABAF1A00AD03C2 /* Experience */; };
+		843AE2891CABAF1A00AD03C2 /* More in Resources */ = {isa = PBXBuildFile; fileRef = 843AE27F1CABAF1A00AD03C2 /* More */; };
+		843AE28A1CABAF1A00AD03C2 /* Nears in Resources */ = {isa = PBXBuildFile; fileRef = 843AE2801CABAF1A00AD03C2 /* Nears */; };
+		843AE28B1CABAF1A00AD03C2 /* themes in Resources */ = {isa = PBXBuildFile; fileRef = 843AE2811CABAF1A00AD03C2 /* themes */; };
+		843AE28C1CABAF1A00AD03C2 /* 三里屯 in Resources */ = {isa = PBXBuildFile; fileRef = 843AE2821CABAF1A00AD03C2 /* 三里屯 */; };
+		843AE28D1CABAF1A00AD03C2 /* 南锣鼓巷 in Resources */ = {isa = PBXBuildFile; fileRef = 843AE2831CABAF1A00AD03C2 /* 南锣鼓巷 */; };
+		843AE2A31CABB0DE00AD03C2 /* fourpage-375w-667h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843AE29F1CABB0DE00AD03C2 /* fourpage-375w-667h@2x.jpg */; };
+		843AE2A41CABB0DE00AD03C2 /* fourpage-414w-736h@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843AE2A01CABB0DE00AD03C2 /* fourpage-414w-736h@3x.jpg */; };
+		843AE2A51CABB0DE00AD03C2 /* fourpage-568h@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843AE2A11CABB0DE00AD03C2 /* fourpage-568h@2x.jpg */; };
+		843AE2A61CABB0DE00AD03C2 /* fourpage@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843AE2A21CABB0DE00AD03C2 /* fourpage@2x.jpg */; };
+		843AE2CE1CABB52500AD03C2 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE2CD1CABB52500AD03C2 /* CategoryViewController.swift */; };
+		843AE2D21CABB54B00AD03C2 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE2D11CABB54B00AD03C2 /* StoreViewController.swift */; };
+		843AE2D51CABB56F00AD03C2 /* TasteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE2D41CABB56F00AD03C2 /* TasteViewController.swift */; };
+		843AE2D81CABB58A00AD03C2 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE2D71CABB58A00AD03C2 /* MineViewController.swift */; };
+		843AE2DE1CABBD6200AD03C2 /* JCNavagationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE2DC1CABBD6200AD03C2 /* JCNavagationController.swift */; };
+		843AE2DF1CABBD6200AD03C2 /* JCTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE2DD1CABBD6200AD03C2 /* JCTabbarController.swift */; };
+		843AE2EF1CABC65500AD03C2 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE2EE1CABC65500AD03C2 /* LaunchViewController.swift */; };
+		843AE2F11CABC92100AD03C2 /* DefaultSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843AE2F01CABC92100AD03C2 /* DefaultSet.swift */; };
+		845575B11CAE28B500A933B2 /* TasteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845575B01CAE28B500A933B2 /* TasteTableViewCell.swift */; };
+		845B00421CACB75A001B0C75 /* CityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845B00411CACB75A001B0C75 /* CityViewController.swift */; };
+		845E406B1CACC51900431867 /* GeneralTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E406A1CACC51900431867 /* GeneralTool.swift */; };
+		845E406E1CACF91A00431867 /* UIBarButtonItem+jcBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E406D1CACF91A00431867 /* UIBarButtonItem+jcBarButtonItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		843AE24F1CABA97500AD03C2 /* AppDemoBySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDemoBySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843AE2521CABA97500AD03C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		843AE2571CABA97500AD03C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		843AE2591CABA97500AD03C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843AE25C1CABA97500AD03C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		843AE25E1CABA97500AD03C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843AE27A1CABAF1A00AD03C2 /* 798 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 798; sourceTree = "<group>"; };
+		843AE27B1CABAF1A00AD03C2 /* Classify */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Classify; sourceTree = "<group>"; };
+		843AE27C1CABAF1A00AD03C2 /* Details */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Details; sourceTree = "<group>"; };
+		843AE27D1CABAF1A00AD03C2 /* events */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = events; sourceTree = "<group>"; };
+		843AE27E1CABAF1A00AD03C2 /* Experience */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Experience; sourceTree = "<group>"; };
+		843AE27F1CABAF1A00AD03C2 /* More */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = More; sourceTree = "<group>"; };
+		843AE2801CABAF1A00AD03C2 /* Nears */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Nears; sourceTree = "<group>"; };
+		843AE2811CABAF1A00AD03C2 /* themes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = themes; sourceTree = "<group>"; };
+		843AE2821CABAF1A00AD03C2 /* 三里屯 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "三里屯"; sourceTree = "<group>"; };
+		843AE2831CABAF1A00AD03C2 /* 南锣鼓巷 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "南锣鼓巷"; sourceTree = "<group>"; };
+		843AE29F1CABB0DE00AD03C2 /* fourpage-375w-667h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fourpage-375w-667h@2x.jpg"; sourceTree = "<group>"; };
+		843AE2A01CABB0DE00AD03C2 /* fourpage-414w-736h@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fourpage-414w-736h@3x.jpg"; sourceTree = "<group>"; };
+		843AE2A11CABB0DE00AD03C2 /* fourpage-568h@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fourpage-568h@2x.jpg"; sourceTree = "<group>"; };
+		843AE2A21CABB0DE00AD03C2 /* fourpage@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fourpage@2x.jpg"; sourceTree = "<group>"; };
+		843AE2CD1CABB52500AD03C2 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		843AE2D11CABB54B00AD03C2 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		843AE2D41CABB56F00AD03C2 /* TasteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasteViewController.swift; sourceTree = "<group>"; };
+		843AE2D71CABB58A00AD03C2 /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		843AE2DC1CABBD6200AD03C2 /* JCNavagationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCNavagationController.swift; sourceTree = "<group>"; };
+		843AE2DD1CABBD6200AD03C2 /* JCTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JCTabbarController.swift; sourceTree = "<group>"; };
+		843AE2EE1CABC65500AD03C2 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		843AE2F01CABC92100AD03C2 /* DefaultSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultSet.swift; sourceTree = "<group>"; };
+		845575B01CAE28B500A933B2 /* TasteTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TasteTableViewCell.swift; sourceTree = "<group>"; };
+		845B00411CACB75A001B0C75 /* CityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityViewController.swift; sourceTree = "<group>"; };
+		845E406A1CACC51900431867 /* GeneralTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralTool.swift; sourceTree = "<group>"; };
+		845E406D1CACF91A00431867 /* UIBarButtonItem+jcBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+jcBarButtonItem.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843AE24C1CABA97500AD03C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843AE2461CABA97500AD03C2 = {
+			isa = PBXGroup;
+			children = (
+				843AE2511CABA97500AD03C2 /* AppDemoBySwift */,
+				843AE2501CABA97500AD03C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843AE2501CABA97500AD03C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843AE24F1CABA97500AD03C2 /* AppDemoBySwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843AE2511CABA97500AD03C2 /* AppDemoBySwift */ = {
+			isa = PBXGroup;
+			children = (
+				843AE2521CABA97500AD03C2 /* AppDelegate.swift */,
+				843AE2561CABA97500AD03C2 /* Main.storyboard */,
+				843AE2971CABB0B400AD03C2 /* APP */,
+				843AE29C1CABB0DE00AD03C2 /* Libs */,
+				843AE29D1CABB0DE00AD03C2 /* Resources */,
+				843AE2791CABAF1A00AD03C2 /* CustomData */,
+				843AE2591CABA97500AD03C2 /* Assets.xcassets */,
+				843AE25B1CABA97500AD03C2 /* LaunchScreen.storyboard */,
+				843AE25E1CABA97500AD03C2 /* Info.plist */,
+			);
+			path = AppDemoBySwift;
+			sourceTree = "<group>";
+		};
+		843AE2791CABAF1A00AD03C2 /* CustomData */ = {
+			isa = PBXGroup;
+			children = (
+				843AE27A1CABAF1A00AD03C2 /* 798 */,
+				843AE27B1CABAF1A00AD03C2 /* Classify */,
+				843AE27C1CABAF1A00AD03C2 /* Details */,
+				843AE27D1CABAF1A00AD03C2 /* events */,
+				843AE27E1CABAF1A00AD03C2 /* Experience */,
+				843AE27F1CABAF1A00AD03C2 /* More */,
+				843AE2801CABAF1A00AD03C2 /* Nears */,
+				843AE2811CABAF1A00AD03C2 /* themes */,
+				843AE2821CABAF1A00AD03C2 /* 三里屯 */,
+				843AE2831CABAF1A00AD03C2 /* 南锣鼓巷 */,
+			);
+			path = CustomData;
+			sourceTree = "<group>";
+		};
+		843AE2971CABB0B400AD03C2 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				843AE2981CABB0B400AD03C2 /* Common */,
+				843AE2991CABB0B400AD03C2 /* Controller */,
+				843AE29A1CABB0B400AD03C2 /* Model */,
+				843AE29B1CABB0B400AD03C2 /* View */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		843AE2981CABB0B400AD03C2 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				845E406C1CACF7ED00431867 /* Extension */,
+				843AE2EB1CABC56700AD03C2 /* Tool */,
+				843AE2DB1CABBD6200AD03C2 /* JCController */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		843AE2991CABB0B400AD03C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				843AE2E71CABC50900AD03C2 /* (启动页)Launch */,
+				843AE2D31CABB56800AD03C2 /* (体验)Taste */,
+				843AE2D01CABB54400AD03C2 /* (探店)Store */,
+				843AE2CC1CABB51700AD03C2 /* (分类)Category */,
+				843AE2D61CABB57E00AD03C2 /* (我的)Mine */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		843AE29A1CABB0B400AD03C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		843AE29B1CABB0B400AD03C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				845575AC1CAE287100A933B2 /* (分类)Category */,
+				845575AD1CAE287100A933B2 /* (探店)Store */,
+				845575AE1CAE287100A933B2 /* (体验)Taste */,
+				845575AF1CAE287100A933B2 /* (我的)Mine */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		843AE29C1CABB0DE00AD03C2 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		843AE29D1CABB0DE00AD03C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				843AE29E1CABB0DE00AD03C2 /* imageFile */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		843AE29E1CABB0DE00AD03C2 /* imageFile */ = {
+			isa = PBXGroup;
+			children = (
+				843AE29F1CABB0DE00AD03C2 /* fourpage-375w-667h@2x.jpg */,
+				843AE2A01CABB0DE00AD03C2 /* fourpage-414w-736h@3x.jpg */,
+				843AE2A11CABB0DE00AD03C2 /* fourpage-568h@2x.jpg */,
+				843AE2A21CABB0DE00AD03C2 /* fourpage@2x.jpg */,
+			);
+			path = imageFile;
+			sourceTree = "<group>";
+		};
+		843AE2CC1CABB51700AD03C2 /* (分类)Category */ = {
+			isa = PBXGroup;
+			children = (
+				843AE2CD1CABB52500AD03C2 /* CategoryViewController.swift */,
+			);
+			path = "(分类)Category";
+			sourceTree = "<group>";
+		};
+		843AE2D01CABB54400AD03C2 /* (探店)Store */ = {
+			isa = PBXGroup;
+			children = (
+				843AE2D11CABB54B00AD03C2 /* StoreViewController.swift */,
+			);
+			path = "(探店)Store";
+			sourceTree = "<group>";
+		};
+		843AE2D31CABB56800AD03C2 /* (体验)Taste */ = {
+			isa = PBXGroup;
+			children = (
+				843AE2D41CABB56F00AD03C2 /* TasteViewController.swift */,
+				845B00411CACB75A001B0C75 /* CityViewController.swift */,
+			);
+			path = "(体验)Taste";
+			sourceTree = "<group>";
+		};
+		843AE2D61CABB57E00AD03C2 /* (我的)Mine */ = {
+			isa = PBXGroup;
+			children = (
+				843AE2D71CABB58A00AD03C2 /* MineViewController.swift */,
+			);
+			path = "(我的)Mine";
+			sourceTree = "<group>";
+		};
+		843AE2DB1CABBD6200AD03C2 /* JCController */ = {
+			isa = PBXGroup;
+			children = (
+				843AE2DC1CABBD6200AD03C2 /* JCNavagationController.swift */,
+				843AE2DD1CABBD6200AD03C2 /* JCTabbarController.swift */,
+			);
+			path = JCController;
+			sourceTree = "<group>";
+		};
+		843AE2E71CABC50900AD03C2 /* (启动页)Launch */ = {
+			isa = PBXGroup;
+			children = (
+				843AE2EE1CABC65500AD03C2 /* LaunchViewController.swift */,
+			);
+			path = "(启动页)Launch";
+			sourceTree = "<group>";
+		};
+		843AE2EB1CABC56700AD03C2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				843AE2F01CABC92100AD03C2 /* DefaultSet.swift */,
+				845E406A1CACC51900431867 /* GeneralTool.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		845575AC1CAE287100A933B2 /* (分类)Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "(分类)Category";
+			path = "View/(分类)Category";
+			sourceTree = "<group>";
+		};
+		845575AD1CAE287100A933B2 /* (探店)Store */ = {
+			isa = PBXGroup;
+			children = (
+				845575B01CAE28B500A933B2 /* TasteTableViewCell.swift */,
+			);
+			name = "(探店)Store";
+			path = "View/(探店)Store";
+			sourceTree = "<group>";
+		};
+		845575AE1CAE287100A933B2 /* (体验)Taste */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "(体验)Taste";
+			path = "View/(体验)Taste";
+			sourceTree = "<group>";
+		};
+		845575AF1CAE287100A933B2 /* (我的)Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "(我的)Mine";
+			path = "View/(我的)Mine";
+			sourceTree = "<group>";
+		};
+		845E406C1CACF7ED00431867 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				845E406D1CACF91A00431867 /* UIBarButtonItem+jcBarButtonItem.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843AE24E1CABA97500AD03C2 /* AppDemoBySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843AE2611CABA97500AD03C2 /* Build configuration list for PBXNativeTarget "AppDemoBySwift" */;
+			buildPhases = (
+				843AE24B1CABA97500AD03C2 /* Sources */,
+				843AE24C1CABA97500AD03C2 /* Frameworks */,
+				843AE24D1CABA97500AD03C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppDemoBySwift;
+			productName = AppDemoBySwift;
+			productReference = 843AE24F1CABA97500AD03C2 /* AppDemoBySwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		843AE2471CABA97500AD03C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					843AE24E1CABA97500AD03C2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 843AE24A1CABA97500AD03C2 /* Build configuration list for PBXProject "AppDemoBySwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843AE2461CABA97500AD03C2;
+			productRefGroup = 843AE2501CABA97500AD03C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843AE24E1CABA97500AD03C2 /* AppDemoBySwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843AE24D1CABA97500AD03C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843AE25D1CABA97500AD03C2 /* LaunchScreen.storyboard in Resources */,
+				843AE25A1CABA97500AD03C2 /* Assets.xcassets in Resources */,
+				843AE2881CABAF1A00AD03C2 /* Experience in Resources */,
+				843AE28C1CABAF1A00AD03C2 /* 三里屯 in Resources */,
+				843AE2581CABA97500AD03C2 /* Main.storyboard in Resources */,
+				843AE2A61CABB0DE00AD03C2 /* fourpage@2x.jpg in Resources */,
+				843AE2861CABAF1A00AD03C2 /* Details in Resources */,
+				843AE2A31CABB0DE00AD03C2 /* fourpage-375w-667h@2x.jpg in Resources */,
+				843AE28B1CABAF1A00AD03C2 /* themes in Resources */,
+				843AE2841CABAF1A00AD03C2 /* 798 in Resources */,
+				843AE28A1CABAF1A00AD03C2 /* Nears in Resources */,
+				843AE2891CABAF1A00AD03C2 /* More in Resources */,
+				843AE2871CABAF1A00AD03C2 /* events in Resources */,
+				843AE2851CABAF1A00AD03C2 /* Classify in Resources */,
+				843AE2A41CABB0DE00AD03C2 /* fourpage-414w-736h@3x.jpg in Resources */,
+				843AE2A51CABB0DE00AD03C2 /* fourpage-568h@2x.jpg in Resources */,
+				843AE28D1CABAF1A00AD03C2 /* 南锣鼓巷 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843AE24B1CABA97500AD03C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843AE2DE1CABBD6200AD03C2 /* JCNavagationController.swift in Sources */,
+				845E406B1CACC51900431867 /* GeneralTool.swift in Sources */,
+				845B00421CACB75A001B0C75 /* CityViewController.swift in Sources */,
+				843AE2D51CABB56F00AD03C2 /* TasteViewController.swift in Sources */,
+				843AE2D21CABB54B00AD03C2 /* StoreViewController.swift in Sources */,
+				843AE2CE1CABB52500AD03C2 /* CategoryViewController.swift in Sources */,
+				845E406E1CACF91A00431867 /* UIBarButtonItem+jcBarButtonItem.swift in Sources */,
+				843AE2DF1CABBD6200AD03C2 /* JCTabbarController.swift in Sources */,
+				843AE2D81CABB58A00AD03C2 /* MineViewController.swift in Sources */,
+				845575B11CAE28B500A933B2 /* TasteTableViewCell.swift in Sources */,
+				843AE2EF1CABC65500AD03C2 /* LaunchViewController.swift in Sources */,
+				843AE2F11CABC92100AD03C2 /* DefaultSet.swift in Sources */,
+				843AE2531CABA97500AD03C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		843AE2561CABA97500AD03C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843AE2571CABA97500AD03C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		843AE25B1CABA97500AD03C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843AE25C1CABA97500AD03C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843AE25F1CABA97500AD03C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		843AE2601CABA97500AD03C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843AE2621CABA97500AD03C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AppDemoBySwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Auto.AppDemoBySwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		843AE2631CABA97500AD03C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = AppDemoBySwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Auto.AppDemoBySwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843AE24A1CABA97500AD03C2 /* Build configuration list for PBXProject "AppDemoBySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843AE25F1CABA97500AD03C2 /* Debug */,
+				843AE2601CABA97500AD03C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843AE2611CABA97500AD03C2 /* Build configuration list for PBXNativeTarget "AppDemoBySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843AE2621CABA97500AD03C2 /* Debug */,
+				843AE2631CABA97500AD03C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 843AE2471CABA97500AD03C2 /* Project object */;
+}
