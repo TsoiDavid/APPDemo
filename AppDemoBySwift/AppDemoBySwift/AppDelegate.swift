@@ -16,8 +16,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        //测试用的冲突代码 Appdemo 
+
+        //测试用的冲突代码 这是修改好两份冲突之后的代码
         self.window?.backgroundColor = UIColor.whiteColor()
+
         
         //引导页
         setLaunchView()
